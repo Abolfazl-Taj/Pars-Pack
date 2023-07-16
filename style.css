@@ -1,0 +1,220 @@
+@import url(http://awebfont.ir/css?id=1116);
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+/* ///////////////////////////Regular Stuff/////////////////////////// */
+*{
+    padding:0;
+    box-sizing:border-box;
+    margin: 0;
+}
+body{
+    font-family: B Yekan , tahoma , Arial;
+}
+a{
+    text-decoration: none;
+}
+.countiner{
+    margin: 0 auto;
+    width: 1200px;
+}
+/* ///////////////////////////header top/////////////////////////// */
+.header-top{
+  display: flex;
+  height: 60px;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.right{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    padding-right: 10px;
+}
+.item-list{
+    padding: 0 15px;
+    color: #999;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+.item-list:hover{
+    color: #288ed9;
+    font-size:larger;
+}
+.left{
+    width: 25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.left button{
+    border: none;
+    font-family: IranYekanBold,tahoma,arial;
+    border-radius: 30px;
+    background-color: #288ed9;
+    font-size: 1rem;
+    color: #fff;
+    height: 35px;
+    padding: 10px;
+    margin: 5px;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color:#666;
+}
+.left .Singup{
+    color: #288ed9;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+.left .Singup:hover{
+    color:#666
+}
+/* ///////////////////////////Header-bottom/////////////////////////// */
+.header-bottom{
+    height: 625px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.header-bottom img{
+    height: 100%;
+    width: 60%;
+    padding-right: 20px ;
+}
+.title{
+    margin: 50px 0 10px;
+    color: #288ed9;
+}
+.description{
+    color: #288ed9;
+    margin-bottom: 15px;
+}
+.info{
+    color: #666;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 27px;
+}
+/* ///////////////////////////Plans/////////////////////////// */
+.plan{
+    background: rgb(0,56,255);
+background: linear-gradient(360deg, rgba(0,56,255,0.6194852941176471) 0%, rgba(218,218,218,1) 100%);
+    border-radius: 15px ;
+}
+.plan-host-title{
+  text-align: center;
+  color: rgb(112, 112, 112);
+  padding-top: 100px ;
+  padding-bottom: 20px ;
+  text-shadow: #dfdfdf 1px 1px 10px;
+}
+.line{
+    margin: auto;
+    width: 500px;
+    height: 1px;
+    background-color:#288ed9;
+}
+.plan-list{
+     display: flex;
+     padding: 100px 0 100px;
+     margin: 5px;
+
+}
+.host-item{
+    position: relative;
+   margin: 0 10px; 
+   padding: 35px 10px 15px;
+   border: rgb(121, 121, 121) solid 1px;
+   border-radius: 15px;
+   text-align: justify;
+   color: #666
+}
+.host-title{
+ text-align: center;
+ position: absolute;
+ top: -20px;
+ right: 0;
+ left: 0;
+ margin: auto;
+ width: 150px;
+ color: #fff;
+ background: #2ea5fa;
+ border-radius: 25px;
+ padding: 5px 10px;
+}
+/* ///////////////////////////info/////////////////////////// */
+.info-sect.ion{
+    display: flex;
+    flex-flow: column wrap;
+}
+.info-1{
+    display: flex;
+    align-items: center;
+}
+.title-info{
+    color: #288ed9;
+    padding-bottom: 5px;
+}
+.des-info{
+    text-align: justify;
+    color: #666;
+    line-height: 25px;
+}
+.left-info-1{
+    width: 1000%;
+}
+.info-2{
+     display: flex;
+     align-items: center;
+     margin-left: 100px;
+}
+.right-info-2{
+ width: 500%
+}
+.info-3{
+   display: flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+}
+.right-info-3{
+    width: 40%;
+
+}
+.title-info-3{
+    color:#2ea5fa;
+}
+.des-info-3{
+    text-align: justify;
+    color: #666;
+    line-height: 27px;
+    padding-top: 10px;
+}
+.left-info-3 img{
+   width: 105%;
+}
+/* /////////////////////////// Footer///////////////////////////  */
+.footer{
+   padding: 50px 0px;
+   text-align:center;
+}
+.socials i{
+    font-size: 25px;
+    color:#666;
+    transition: all 0.5s;
+    padding: 0 10px;
+}
+.socials i:hover{
+    color: #2ea5fa;
+    border-top: 1px solid #666;
+    padding-top:  5px;
+}
+
+.footer-des{
+  color: #666;
+  font-size: 15px;
+}
