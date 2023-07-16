@@ -1,5 +1,10 @@
 @import url(http://awebfont.ir/css?id=1116);
 @import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+@keyframes kos{
+    100%{
+         background-position: 2000px 1000px
+    }
+}
 /* ///////////////////////////Regular Stuff/////////////////////////// */
 *{
     padding:0;
@@ -102,9 +107,11 @@ button:hover{
 }
 /* ///////////////////////////Plans/////////////////////////// */
 .plan{
-    background: rgb(0,56,255);
-background: linear-gradient(360deg, rgba(0,56,255,0.6194852941176471) 0%, rgba(218,218,218,1) 100%);
     border-radius: 15px ;
+    background: url(Pic/plans-back.svg);
+    background-size: cover ;
+    background-repeat: infinite;
+    animation: kos 5s infinite alternate linear ; 
 }
 .plan-host-title{
   text-align: center;
@@ -132,7 +139,7 @@ background: linear-gradient(360deg, rgba(0,56,255,0.6194852941176471) 0%, rgba(2
    border: rgb(121, 121, 121) solid 1px;
    border-radius: 15px;
    text-align: justify;
-   color: #666
+   color: #288ed9;
 }
 .host-title{
  text-align: center;
